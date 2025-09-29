@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>Welcome back, {{ request.user.get_username }}!</h1>
+<p>This will become the launchpad for categories, books, and expense reports.</p>
+{% endblock %}
